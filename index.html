@@ -17,77 +17,59 @@
 </head>
 
 <body>
-    <section class="hero-container d-flex flex-column">
-        <nav class="navbar navbar-expand-lg navbar-dark container py-4">
-            <a class="navbar-brand fs-2 fw-bold" href="#">Feane</a>
+    <div class="main">
+        <nav class="d-flex justify-content-evenly align-items-center p-4">
+            <div class="logo">
+                <a href="index.html">Feane</a>
+            </div>
 
-            <div class="collapse navbar-collapse d-flex justify-content-between">
-                <ul class="navbar-nav mx-auto gap-4">
-                    <li class="nav-item"><a class="nav-link text-white" href="#">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">MENU</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">BOOK TABLE</a></li>
+            <div class="links">
+                <ul class="d-flex gap-4">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">MENU</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BOOK TABLE</a></li>
                 </ul>
+            </div>
 
-                <div class="nav-actions d-flex align-items-center gap-3">
-                    <i class="bi bi-person-fill text-white"></i>
-                    <i class="bi bi-cart-fill text-white"></i>
-                    <i class="bi bi-search text-white"></i>
-                    <button class="btn btn-primary-custom rounded-pill">Order Now</button>
-                </div>
+            <div class="btns d-flex gap-3">
+                <i class="bi bi-person-fill"></i>
+                <i class="bi bi-cart-fill"></i>
+                <i class="bi bi-search"></i>
+
+                <button class="bg-primary rounded-pill">
+                    Order Now
+                </button>
             </div>
         </nav>
 
-        <div class="container flex-grow-1 d-flex align-items-center">
-            <div class="hero-content col-md-6">
-                <h1 class="display-3 fw-bold mb-3">Fast Food Restaurant</h1>
-                <p class="lead mb-4">
-                    Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam
-                    quisquam esse error unde.
-                </p>
-                <button class="btn btn-primary-custom rounded-pill px-5 py-2">Order Now</button>
+        <div class="hero h-100 w-50 d-flex justify-content-center flex-column align-content-start p-5">
+            <h1>
+                Fast Food Restaurant
+            </h1>
+
+            <p>
+                Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam
+                esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus
+                libero ipsam.
+            </p>
+
+            <button>
+                Order Now
+            </button>
+        </div>
+    </div>
+
+    <!-- offer Section -->
+    <section class="offer-section d-flex align-items-center justify-content-center">
+        <div class="cards h-50 w-25 d-flex">
+            <img src="./image/o1.jpg" alt="first">
+            <div class="description">
+                <h5>Tasty Thursdays</h5>
             </div>
         </div>
+        
     </section>
-
-    <section class="offer-section py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 d-flex gap">
-                    <article class="offer-card">
-                        <div class="offer-card__img-box">
-                            <img src="./image/o1.jpg" alt="Tasty Thursdays Pizza Offer">
-                        </div>
-                        <div class="offer-card__content">
-                            <h5 class="offer-card__title">Tasty Thursdays</h5>
-                            <h2 class="offer-card__discount">
-                                <span>20%</span> off
-                            </h2>
-                            <button class="btn btn-primary-custom rounded-pill mt-2">Order Now <i
-                                    class="bi bi-cart"></i></button>
-                        </div>
-                    </article>
-
-                    <article class="offer-card">
-                        <div class="offer-card__img-box">
-                            <img src="./image/o1.jpg" alt="Tasty Thursdays Pizza Offer">
-                        </div>
-                        <div class="offer-card__content">
-                            <h5 class="offer-card__title">Tasty Thursdays</h5>
-                            <h2 class="offer-card__discount">
-                                <span>20%</span> off
-                            </h2>
-                            <button class="btn btn-primary-custom rounded-pill mt-2">Order Now <i
-                                    class="bi bi-cart"></i></button>
-                        </div>
-                    </article>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    
     <!-- BootStrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
