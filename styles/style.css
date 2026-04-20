@@ -1,11 +1,72 @@
+/* Custom Variables */
+:root {
+  --primary-yellow: #ffbe33;
+  --dark-bg: #222831;
+  --white: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html,
-body {
+.hero-container {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../image/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+}
+
+.btn-primary-custom {
+  background-color: var(--primary-yellow);
+  color: var(--white);
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+  background-color: #e69c00;
+  transform: translateY(-2px);
+}
+
+/* Offer Section Styles - BEM Convention */
+.offer-section {
+  background-color: var(--white);
+}
+
+.offer-card {
+  background-color: var(--dark-bg);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  color: var(--white);
+  transition: transform 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: scale(1.02);
+}
+
+.offer-card__img-box {
+  width: 170px;
+  height: 170px;
+  min-width: 170px; /* Prevents image from shrinking */
+  border: 5px solid var(--primary-yellow);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.offer-card__img-box img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+
+.offer-card__discount span {
+  font-family: 'Dancing Script', cursive; /* Typical for restaurant sites */
+  font-size: 2.5rem;
 }
