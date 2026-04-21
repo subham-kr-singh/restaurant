@@ -1,88 +1,55 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,
 body {
-  width: 100%;
-  height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
 }
 
-body {
-  margin: 0;
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    "Open Sans",
-    "Helvetica Neue",
-    sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
-}
-/* .main{
-  height: 100vh;
-  background-image: url(../image/hero-bg.jpg);
-  object-fit: cover;
-  color: white;
+.first-section {
+    background-color: #222831;
+    padding: 80px 0;
 }
 
-.hero{
-  width: 50vh;
-}
-.links ul{
-  list-style: none;
+.second-section {
+    padding: 80px 0;
+    background-color: #ffffff;
 }
 
-section{
-  height: 50vh;
+.title-font {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 25px;
 }
 
-.offer-section{
-  height: 35%;
-  width: 100%;
-  background-color: white;
+.text-white {
+    color: #ffffff;
 }
 
-.offer-section .cards{
-  background-color: #121212;
-  color: aliceblue;
-  height: 415px;
-  width: 555px;
+.yellow-btn {
+    background-color: #ffbe33;
+    color: #ffffff;
+    padding: 10px 45px;
+    border-radius: 40px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    font-weight: 600;
 }
 
-.offer-section .cards img {
-  object-fit: cover;
-  border-radius: 50%;
-  border-color: yellow;
-  height: 165px;
-  width: 165px;
-
-} */
-
-.about_section {
-  background: #222831;
-  color: #ffffff;
+.my-input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-radius: 5px;
+    display: block;
 }
 
-.about_section .img-box img {
-  width: 100%;
-  max-width: 445px;
-  position: relative;
-  z-index: 2;
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
-layout_padding {
-  padding: 90px 0;
+.map-box {
+    width: 100%;
 }
