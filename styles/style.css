@@ -1,55 +1,128 @@
 body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #ffffff;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffffff;
 }
 
 .first-section {
-    background-color: #222831;
-    padding: 80px 0;
+  background-color: #222831;
+  padding: 80px 0;
 }
 
 .second-section {
-    padding: 80px 0;
-    background-color: #ffffff;
+  padding: 80px 0;
+  background-color: #ffffff;
 }
 
 .title-font {
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    margin-bottom: 25px;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  margin-bottom: 25px;
 }
 
 .text-white {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .yellow-btn {
-    background-color: #ffbe33;
-    color: #ffffff;
-    padding: 10px 45px;
-    border-radius: 40px;
-    text-decoration: none;
-    display: inline-block;
-    border: none;
-    font-weight: 600;
+  background-color: #ffbe33;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  font-weight: 600;
 }
 
 .my-input {
-    width: 100%;
-    height: 50px;
-    border: 1px solid #bbbbbb;
-    margin-bottom: 20px;
-    padding-left: 15px;
-    border-radius: 5px;
-    display: block;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #bbbbbb;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-radius: 5px;
+  display: block;
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .map-box {
-    width: 100%;
+  width: 100%;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+.wid100px {
+  width: 200px;
+  height: 50px;
+}
+
+img {
+  width: 290px;
+  height: 215px;
+}
+
+.navbar-section {
+  background: linear-gradient(to right, #000, #1f2b2f);
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #fcbf36 !important;
+}
+
+.order-btn {
+  background-color: #fcbf36;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+.hero-bg {
+  width: 99vw;
+  height: 95vh;
+  background-image: url(image/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.offer-card {
+  background-color: #1f2630;
+}
+
+.offer-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid #ffc107;
+}
+
+.offer-title {
+  font-family: cursive;
+}
+
+.offer-text {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.offer-text small {
+  font-family: cursive;
+  font-size: 24px;
+}
+
+.order-btn {
+  border-radius: 50px;
+  padding: 10px 30px;
 }
